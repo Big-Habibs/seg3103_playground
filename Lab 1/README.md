@@ -15,11 +15,11 @@ After compiling newmath_java, here is the result I obtained:
 I am running JUnit 5.
 I compiled the file using this command:
 
-'javac -encoding UTF-8 --source-path test -d dist -cp lib/junit-platform-console-standalone-1.7.1.jar test/*.java src/*.java'
+`javac -encoding UTF-8 --source-path test -d dist -cp lib/junit-platform-console-standalone-1.7.1.jar test/*.java src/*.java`
 
 Then I ran the test with this command:
 
-'java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path'
+`java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path`
 
 Which gave me this result:
 
@@ -32,11 +32,11 @@ This is my elixir version:
 
 I compile it using:
 
-'mix compile'
+`mix compile`
 
 And then I run it using:
 
-'iex -S mix'
+`iex -S mix`
 
 Which gives me a result of:
 
