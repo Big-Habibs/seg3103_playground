@@ -9,7 +9,7 @@ I am running the latest version of java:
 ![java version lab1](https://user-images.githubusercontent.com/72233859/118376815-4d366900-b598-11eb-9449-fa247f3575b1.png)
 
 After compiling newmath_java, here is the result I obtained:
-![JUnit running lab1](https://user-images.githubusercontent.com/72233859/118376880-a3a3a780-b598-11eb-8f99-d34a6a12de74.png)
+![new math running java lab1](https://user-images.githubusercontent.com/72233859/118756934-fb147280-b839-11eb-884f-531ec2eb4aed.png)
 
 ### JUnit
 I am running JUnit 5.
