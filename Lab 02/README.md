@@ -2,5 +2,7 @@
 ## Exercise 1
 | Test Case | Expected Result | Actual Result | Verdict (Pass, Fail, Inconclusive) |
 | ------------- | ------------- | ----------- | ---------------------------------- |
-| Content Cell  | Content Cell  | hello | Perhaps |
-| Content Cell  | Content Cell  | yes | of course |
+| 1 | Accepted  | Wrong first and last name format | Fail |
+| 2 | Accepted  | Wrong Email format | Fail |
+| 3 | Accepted  | Wrong First and Last name format | Fail|
+| 4 | Accepted  | Accepted | Pass |
