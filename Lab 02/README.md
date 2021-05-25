@@ -1,7 +1,8 @@
 # LAB 2
 ## Exercise 1
 
-I ran the registration code using this: 
+I ran the registration code using this:
+
 `java -jar  user-registration-app-0.1.0.jar`
 
 And loaded up localhost:8080 in google which brought me to this page:
