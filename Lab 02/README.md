@@ -40,3 +40,14 @@ Finally, my test cases for DateNextDateException passes:
 For additional work, here are ALL the test cases being tested in windows cmd:
 
 ![cmd tests](https://user-images.githubusercontent.com/72233859/119909582-33dfd600-bf23-11eb-9e2b-5b18602083fd.png)
+
+# RUN MY CODE
+
+after loading up the cmd for the ecs folder, I had to compile it using:
+
+`javac -encoding UTF-8 --source-path test -d dist -cp lib/junit-platform-console-standalone-1.7.1.jar test/*.java src/*.java`
+
+And then i run the tests using:
+
+`java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path`
+
