@@ -35,3 +35,8 @@ In addition, my test cases for DateNextDateOk passes as well:
 Finally, my test cases for DateNextDateException passes:
 
 ![DateNextDateException passes](https://user-images.githubusercontent.com/72233859/119909401-ba47e800-bf22-11eb-94d5-00cb0eb71c3c.png)
+
+
+For additional work, here are ALL the test cases being tested in windows cmd:
+
+![cmd tests](https://user-images.githubusercontent.com/72233859/119909582-33dfd600-bf23-11eb-9e2b-5b18602083fd.png)
