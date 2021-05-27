@@ -42,7 +42,7 @@ public class Date {
 	 *   - less or equal to 29 for February if year is leap
 	 *   - less or equal to 30 for February if year is non-leap
 	 */
-	private void setDay(int day) {
+	public void setDay(int day) {
 		if (day < 1) {
 			throw new IllegalArgumentException("day must greater or equal to 1.");
 		}
@@ -74,7 +74,7 @@ public class Date {
 	/**
 	 * Check validity of the year when creating a new Date. year must be greater than 0
 	 */
-	private void setYear(int year) {
+	public void setYear(int year) {
 		if (year < 0) {
 			throw new IllegalArgumentException("year must be greater or equal to 0.");
 		}
