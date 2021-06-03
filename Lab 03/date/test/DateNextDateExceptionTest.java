@@ -37,7 +37,7 @@ public class DateNextDateExceptionTest
   @Test(expected = IllegalArgumentException.class)
   public void testNextDate()
   {
-    new Date(year, month, day);
+    new Date(this.year, this.month, this.day);
   }
 
 }

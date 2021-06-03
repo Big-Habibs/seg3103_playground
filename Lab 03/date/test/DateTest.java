@@ -114,7 +114,7 @@ class DateTest {
     assertThrows(
       IllegalArgumentException.class,
       () -> new Date(1500, 2, 31)
-    );
+      );
   }
 
   @Test
@@ -149,4 +149,31 @@ class DateTest {
     );
   }
 
+  @Test
+  void checkingToStringTest(){
+    Date date = new Date(2021, 06, 03);
+    String expectedString = date.getYear() + "/June/" + date.getDay();
+    assertEquals(expectedString, date.toString());
+  }
+
+  @Test
+  void nonDate() {
+    Date date = new Date(2002,9,1);
+    int date2 = 44;
+    assertFalse(date.equals(date2));
+  }
+
+  @Test
+  void sameDate() {
+    Date date = new Date(2002,5,18);
+    Date date2 = new Date(2002,5,18);
+    assertTrue(date.equals(date2));
+  }
+
+  @Test
+  void differentDate() {
+    Date date = new Date(1963,9,7);
+    Date date2 = new Date(1964,12,7);
+    assertFalse(date.equals(date2));
+  }
 }
