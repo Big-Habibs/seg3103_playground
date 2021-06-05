@@ -7,6 +7,6 @@ public class TicTest {
     @Test
     void emptyBoardTest(){
         Tic obj = new Tic();
-        assertEquals(" ", obj.emptyBoard());
+        assertEquals("_", obj.emptyBoard());
     }
 }
