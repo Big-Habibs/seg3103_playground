@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class TicTest {
 
     @Test
-    void emptyBoardTest1(){
+    void emptyBoardTest1(){ //Test 1
         Tic actual = new Tic();
         String[][] expected = {{" "}, {" "}};
         assertTrue(Arrays.deepEquals(expected, actual.theBoard(2, 1)));
@@ -18,6 +18,13 @@ public class TicTest {
         Tic actual = new Tic();
         String[][] expected = {{" "," "}, {" ", " "}};
         assertTrue(Arrays.deepEquals(expected, actual.theBoard(2, 2)));
+    }
+
+    @Test
+    void emptyBoardTest3(){ //Test 3
+        Tic actual = new Tic();
+        String[][] expected = {{" ", " ", " "}, {" ", " ", " "}};
+        assertTrue(Arrays.deepEquals(expected, actual.theBoard(3, 2)));
     }
 
 }
