@@ -34,4 +34,11 @@ public class TicTest {
         assertTrue(Arrays.deepEquals(expected, actual.theBoard(3, 1)));
     }
 
+    @Test
+    void emptyBoardTest5(){ //Test 5
+        Tic actual = new Tic();
+        String[][] expected = {{" ", " "}, {" ", " "}, {" ", " "}};
+        assertTrue(Arrays.deepEquals(expected, actual.theBoard(2, 3)));
+    }
+
 }
