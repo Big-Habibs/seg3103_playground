@@ -2,11 +2,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 public class TicTest {
 
     @Test
-    void emptyBoardTest(){
-        Tic obj = new Tic();
-        assertEquals("_", obj.emptyBoard());
+    void emptyBoardTest1(){
+        Tic actual = new Tic();
+        String[][] expected = {{" "}, {" "}};
+        assertTrue(Arrays.deepEquals(expected, actual.theBoard(1, 2)));
     }
+
 }
