@@ -16,7 +16,7 @@ public class TicTest {
     @Test
     void emptyBoardTest2(){
         Tic actual = new Tic();
-        String[][] expected = {{"_"," _"}, {"_", "_"}};
+        String[][] expected = {{" "," "}, {" ", " "}};
         assertTrue(Arrays.deepEquals(expected, actual.theBoard(2, 2)));
     }
 
