@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Elixir" name="Elixir">
+      <configuration sdkName="Elixir at C:\Program Files (x86)\Elixir" />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -10,12 +15,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Lab 04/fizz_java/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab 04/tic_java/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab 04/tic_java/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab 05/grades/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Lab 05/twitter/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab 05/twitter/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="junit-platform-console-standalone-1.7.1" level="project" />
     <orderEntry type="library" name="junit:junit:4.13.2" level="project" />
     <orderEntry type="library" name="org.junit.jupiter:junit-jupiter:5.7.1" level="project" />
   </component>
