@@ -23,5 +23,15 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="junit:junit:4.13.2" level="project" />
     <orderEntry type="library" name="org.junit.jupiter:junit-jupiter:5.7.1" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/easymock-4.3/easymock-4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="easymock-4.3" level="project" />
   </component>
 </module>
