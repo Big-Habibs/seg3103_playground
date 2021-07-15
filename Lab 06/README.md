@@ -16,3 +16,8 @@ Following that, I did mvn package -DSkipTests:
 Here is my local host:
 
 ![yamazone](https://user-images.githubusercontent.com/72233859/125714936-645cf841-844b-4d83-9228-b7bd7d4d7a31.png)
+
+I run mvn test:
+
+![test passing](https://user-images.githubusercontent.com/72233859/125842899-a02c2717-07e7-4a32-af67-19479ee5eb1c.png)
+
